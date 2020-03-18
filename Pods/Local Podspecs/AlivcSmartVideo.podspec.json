@@ -1,0 +1,56 @@
+{
+  "name": "AlivcSmartVideo",
+  "version": "0.1.0",
+  "summary": "A short description of AlivcSmartVideo.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wb-ll501135/AlivcSmartVideo",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wb-ll501135": "wb-ll501135@alibaba-inc.com"
+  },
+  "source": {
+    "git": "https://github.com/wb-ll501135/AlivcSmartVideo.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "static_framework": true,
+  "source_files": "AlivcSmartVideo/Classes/**/*.{h,m,mm}",
+  "prefix_header_contents": [
+    "#import \"AlivcMacro.h\"",
+    "#import \"AlivcImage.h\""
+  ],
+  "resource_bundles": {
+    "AlivcSmartVideo": [
+      "AlivcSmartVideo/Assets/AlivcImage_SmartVideo/*.png",
+      "AlivcSmartVideo/Classes/**/*.xib"
+    ]
+  },
+  "dependencies": {
+    "AlivcCore": [
+
+    ],
+    "AlivcCommon": [
+
+    ],
+    "AlivcRecord": [
+
+    ],
+    "AlivcEdit": [
+
+    ],
+    "AlivcCrop": [
+
+    ],
+    "MJRefresh": [
+
+    ],
+    "AliPlayerPartSDK_iOS": [
+
+    ]
+  }
+}
